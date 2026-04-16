@@ -22,6 +22,12 @@
 
 本工具依赖 Claude Code 的 `web-access` skill 提供 CDP 代理服务（默认地址 `http://localhost:3456`）。
 
+安装命令：
+
+```bash
+npx skills add eze-is/web-access
+```
+
 ### 2. 启动 Chrome 远程调试
 
 确保本地已启动 Chrome 并开启远程调试端口，例如：
